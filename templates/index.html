@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <style>
+        .head {
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            height: 5ch;
+            border-radius: 10px;
+            background-color: rgba(222, 184, 135, 0.4);
+
+        }
+
+        .bg {
+            background-image: url("pixlr-image-generator-42266b4b-bac4-42d9-8b12-34e8ee8f5ac8.png");
+            backdrop-filter: blur(3px);
+        }
+
+        .center {
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+            width: auto;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            font-size: 25px;
+        }
+
+        form {
+            height: 500px;
+            width: 1000px;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.6);
+            background-size: cover;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* vertical-align: middle; */
+            margin-top: 10%;
+        }
+
+        #text {
+            height: 100px;
+            width: 500px;
+            font-size: 20px;
+        }
+
+        textarea {
+            height: 500px;
+            width: 500px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+
+        input {
+            font-size: 20px;
+            padding: 10px;
+        }
+    </style>
+    
+</head>
+
+<body class="bg">
+    <div class="head"><b>Quotes Tag Classifier</b></div>
+    <div class="center">
+        <form action="/" method="post">
+            <label for="text"><b>Enter Description</b></label> <br />
+            <textarea id="text" name="text"></textarea> <br />
+            <input type="submit" value="Submit" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        </form>
+    </div>
+</body>
+
+</html>

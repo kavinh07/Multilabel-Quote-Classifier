@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <style>
+        .head {
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            height: 5ch;
+            border-radius: 10px;
+            background-color: rgba(222, 184, 135, 0.4);
+        }
+
+        .bg {
+            background-image: url("pixlr-image-generator-42266b4b-bac4-42d9-8b12-34e8ee8f5ac8.png");
+            backdrop-filter: blur(3px);
+        }
+
+        .center {
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            font-size: 25px;
+        }
+
+        #text {
+            height: 100px;
+            width: 500px;
+            font-size: 20px;
+        }
+    </style>
+    
+</head>
+
+<body class="bg">
+    <div class="head"><b>Quotes Tag Classifier</b></div>
+    <div class="center">
+        <div style="height: 100px; width: 1000px;">
+            <div style="background-color: rgba(255, 255, 255, 0.6); margin: 2px;">
+                <label for="text"><b>Input Text</b></label> <br />
+                {{ input_text }} <br /> <br />
+            </div>
+            <div style="background-color: rgba(255, 255, 255, 0.6); margin: 2px;">
+                <label for="text"><b>Tags</b></label> <br />
+                {{ output_text }}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
