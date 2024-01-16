@@ -1,1 +1,1 @@
-Dataloaders can be found in [![drive](https://img.shields.io/badge/logo-dataloaders-blue?logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1YpzxU2ibVzxjSbHGenk15n8Wxz5GCJ7p?usp=sharing)
+Dataloaders can be found in [![drive](https://img.shields.io/badge/drive-dataloaders-blue?logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1YpzxU2ibVzxjSbHGenk15n8Wxz5GCJ7p?usp=sharing)
