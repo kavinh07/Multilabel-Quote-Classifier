@@ -5,13 +5,13 @@ The model can classify **675** different types of quote tags <br/>The keys of `d
 
  ## Data Collection
 
->Data was collected from BrainyQuote Website Listing: [![brainyquotes](https://img.shields.io/badge/www.brainyquote.com-blue)](https://www.brainyquote.com/topics) <br/>The data collection process is divided into 3 steps:
+Data was collected from BrainyQuote Website Listing: [![brainyquotes](https://img.shields.io/badge/www.brainyquote.com-blue)](https://www.brainyquote.com/topics) <br/>The data collection process is divided into 3 steps:
 
->- **Category & URL Scraping:** The quotes URLs were scraped with `scraper\quote_url_scraper.py` and the URLs are stored along with the quote title in `scraper\quotes_urls.csv`.
->- **Quote Details Scraping:** Using the URLs, the quotes, the authors, the category and the description URLs are scraped with `scraper\detail_data_scraper.py` and they are stored in `scraper\quotes.csv`.
->- **Tags Scraping:** The final part was tag scraping and it was the difficult one. I split the total data into mini-batches and scrap tags with `scraper\tags_scraper.py` and stored in `data\quotes_data.csv`.
+- **Category & URL Scraping:** The quotes URLs were scraped with `scraper\quote_url_scraper.py` and the URLs are stored along with the quote title in `scraper\quotes_urls.csv`.
+- **Quote Details Scraping:** Using the URLs, the quotes, the authors, the category and the description URLs are scraped with `scraper\detail_data_scraper.py` and they are stored in `scraper\quotes.csv`.
+- **Tags Scraping:** The final part was tag scraping and it was the difficult one. I split the total data into mini-batches and scrap tags with `scraper\tags_scraper.py` and stored in `data\quotes_data.csv`.
 
->In total, I scraped 1,01,243 quotes with their author's name, categories and relevant tags. 
+In total, I scraped 1,01,243 quotes with their author's name, categories and relevant tags. 
 
 ## Data Preprocessing
 
