@@ -15,7 +15,7 @@ In total, I scraped 1,01,243 quotes with their author's name, categories and rel
 
 ## Data Preprocessing
 
-Initially, there were *9129* different tags in the dataset. After some analysis, I found out *8454* of them are rare (probably custom tags by users). So, I removed those tags and then I have *675* tags. After that, there were some duplicated values and I got a total of 1,01,201 samples after dropping them.
+Initially, there were *9129* different tags in the dataset. After some analysis, I found out *8454* of them are rare (probably custom tags by users). So, I removed those tags and then I have *675* tags. After that, there were some duplicated values and I got a total of 101,201 samples after dropping them.
 
 ## Model Training
 
@@ -23,10 +23,10 @@ Finetuned `distilroberta-base` and `bert-base-uncased` models from HuggingFace T
 
 ## Result Comparison
 
-Models|Accuracy|F1 Score(Micro)|F1 Score(Macro)
+Models|Test Accuracy|F1 Score(Micro)|F1 Score(Macro)
 :---:|:---:|:---:|:---:
-Distil Roberta Base| 99.83 % | 84.89 % | 52.42%
-Bert Base Uncased| 99.84% | 88.60 % | 67.15 %
+Distil Roberta Base| - | 84.89 % | 52.42%
+Bert Base Uncased| - | 88.60 % | 67.15 %
 
 ## Model Compression and ONNX Inference
 
