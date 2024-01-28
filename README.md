@@ -36,7 +36,7 @@ The trained model has a memory of 422+MB. I compressed this model using ONNX qua
 
 The compressed model is deployed to the HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [![hf interface](https://img.shields.io/badge/Hugging_face-Interface-FFFF00)](https://huggingface.co/spaces/kavinh07/quote-classifier)
 
-<img src = "deployment\hugging_face_interface.png" width="600" height="400">
+<img src = "deployment\hugging_face_interface.png" width="700" height="400">
 
 ## Web Deployment
 Deployed a Flask App built to take descriptions and show the tags as output. Check `flask` branch. The website is live [![website link](https://img.shields.io/badge/www.multilabelquoteclassifier.onrender.com-blue)](https://multilabelquoteclassifier.onrender.com)
