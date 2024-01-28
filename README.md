@@ -1,4 +1,4 @@
-# Multilabel-Quote-Classifier
+# Multilabel Quote Classifier
 
 A text classification model from data collection, model training, and deployment. <br/>
 The model can classify **675** different types of quote tags <br/>The keys of `deployment\tag_types_encoded.json` shows the quote tags
