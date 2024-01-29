@@ -28,9 +28,11 @@ Models|Test Accuracy|F1 Score(Micro)|F1 Score(Macro)
 Distil Roberta Base| - | 84.89 % | 52.42%
 Bert Base Uncased| - | 88.60 % | 67.15 %
 
+<br>
+`Bert Base Uncased` found as a best model after the comparison.
 ## Model Compression and ONNX Inference
 
-The trained model has a memory of 422+MB. I compressed this model using ONNX quantization and brought it under 106MB. 
+The trained `bert-base-uncased` model has a memory of 422+MB. I compressed this model using ONNX quantization and brought it under 106MB. 
 
 ## Model Deployment
 
